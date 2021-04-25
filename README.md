@@ -167,8 +167,7 @@ Developed with ❤️ by AUTHOR NAME 👋🏽 Contact me!
 ## :balance_scale: **License**
 
 <div align="center">
-
-Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
-This project is licensed by [MIT](./LICENSE).
+  
+[![License](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/license.svg)](./LICENSE)
 
 </div>
