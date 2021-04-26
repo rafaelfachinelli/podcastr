@@ -1,34 +1,173 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img alt="Podcastr" src=".github/banner.svg" width="250px"/>
+</p>
 
-## Getting Started
+<p align="center"> 
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/podcastr?color=3498db&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/podcastr?color=3498db&style=for-the-badge">
+  <a href="https://github.com/USERNAME">
+    <img alt="Developed by NAME" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%3498db?color=3498db&style=for-the-badge">
+  </a>
+  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/podcastr?color=3498db&style=for-the-badge"/>
+</p>
 
-First, run the development server:
+<p align="center">
+ <a href="#eye_speech_bubble-preview">Preview</a> •
+ <a href="#information_source-about">About</a> •
+ <a href="#memo-tasks">Tasks</a> •
+ <a href="#arrow_forward-run">Run</a> •
+ <a href="#hammer_and_wrench-technologies">Technologies</a> •
+ <a href="#boy-author">Author</a> •
+ <a href="#balance_scale-license">License</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+---
+## :eye_speech_bubble: **Preview**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### :desktop_computer: Computer
+  
+|Desktop|Ultra Wide|
+|:---:|:---:|
+|<kbd><img src=".github/previews/desktop_preview.jpg" alt="Desktop"/></kbd>|<kbd><img src=".github/previews/ultraWide_preview.jpg" alt="Ultra Wide"/></kbd>|
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### :iphone: Responsive
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+|Tablet|Mobile|
+|:---:|:---:|
+|<kbd><img src=".github/previews/tablet_preview.jpg" alt="Tablet"/></kbd>|<kbd><img src=".github/previews/mobile_preview.jpg" alt="Mobile"/></kbd>
 
-## Learn More
+</div>
+  
+---
+## :information_source: About
 
-To learn more about Next.js, take a look at the following resources:
+Description about this project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
+## :memo: **Tasks**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<div align="center">
+<details>
+<summary>Click to View</summary>
 
-## Deploy on Vercel
+|State|Task|
+|:---:|:---|
+|:heavy_check_mark:|Describe your task finished.|
+|:x:|Describe your task unfinished.|
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+</details>
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+## :arrow_forward: **Run**
+
+To run the project you need to clone or [`download`](https://github.com/USERNAME/REPOSITORY/archive/main.zip) this repository, have the Node Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager installed ([`YARN`](https://yarnpkg.com/getting-started)).
+
+### :globe_with_meridians: **Web**
+
+Open the command prompt in the project directory, open the [`example/`](example/) folder and execute the following commands:
+
+<details>
+  <summary><i>with <b>npm</b></i></summary>
+  
+  ```bash
+  # Install dependencies
+  $ npm install
+
+  # Start development server
+  $ npm start
+  ```
+  
+</details>
+
+<details>
+  <summary><i>with <b>yarn</b></i></summary>
+  
+  ```bash
+  # Install dependencies
+  $ yarn
+
+  # Start development server
+  $ yarn start
+
+  ```
+
+</details>
+
+> ⚠️ The development server will start on port:PORT - Access <http://localhost:PORT>
+
+### :iphone: **Mobile**
+
+Open the command prompt in the project directory, open the [`example/`](example/) folder and execute the following commands:
+
+<details>
+  <summary><i>with <b>npm</b></i></summary>
+  
+  ```bash
+  # Install dependencies
+  $ npm install
+
+  # Start development server
+  $ npm start
+  ```
+  
+</details>
+
+<details>
+  <summary><i>with <b>yarn</b></i></summary>
+  
+  ```bash
+  # Install dependencies
+  $ yarn
+
+  # Start development server
+  $ yarn start
+
+  ```
+
+</details>
+
+> ⚠️ The development server will start on port:PORT - Access <http://localhost:PORT>
+
+---
+## :hammer_and_wrench: **Technologies**
+
+The following tools is used to build this project:
+
+<div align="center">
+
+|:globe_with_meridians: Web|
+|:---:|
+|[Example](https://example.com)|
+
+</div>
+
+---
+## :boy: **Author**
+
+<div align="center">
+
+<a href="https://github.com/AUTHORUSERNAME">
+ <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Profile Photo AUTHOR NAME"/>
+ <br/>
+ <sub><b>AUTHOR NAME</b></sub>
+</a>
+
+Developed with ❤️ by AUTHOR NAME 👋🏽 Contact me!
+
+[![Linkedin Badge](https://img.shields.io/badge/-AUTHOR_NAME-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/AUTHORNAME)
+[![Github Badge](https://img.shields.io/badge/-AUTHORNAME-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/AUTHORUSERNAME)
+[![Outlook Badge](https://img.shields.io/badge/-AUTHOREMAIL-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:AUTHOREMAIL)
+
+</div>
+
+---
+## :balance_scale: **License**
+
+<div align="center">
+  
+[![License](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/license.svg)](./LICENSE)
+
+</div>
