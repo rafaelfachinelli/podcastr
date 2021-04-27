@@ -5,8 +5,8 @@
 <p align="center"> 
   <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/podcastr?color=3498db&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/podcastr?color=3498db&style=for-the-badge">
-  <a href="https://github.com/USERNAME">
-    <img alt="Developed by NAME" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%3498db?color=3498db&style=for-the-badge">
+  <a href="https://github.com/rafaelfachinelli">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%3498db?color=3498db&style=for-the-badge">
   </a>
   <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/podcastr?color=3498db&style=for-the-badge"/>
 </p>
@@ -90,46 +90,13 @@ Open the command prompt in the project directory, open the [`example/`](example/
   $ yarn
 
   # Start development server
-  $ yarn start
+  $ yarn dev
 
   ```
 
 </details>
 
-> ⚠️ The development server will start on port:PORT - Access <http://localhost:PORT>
-
-### :iphone: **Mobile**
-
-Open the command prompt in the project directory, open the [`example/`](example/) folder and execute the following commands:
-
-<details>
-  <summary><i>with <b>npm</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ npm install
-
-  # Start development server
-  $ npm start
-  ```
-  
-</details>
-
-<details>
-  <summary><i>with <b>yarn</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ yarn
-
-  # Start development server
-  $ yarn start
-
-  ```
-
-</details>
-
-> ⚠️ The development server will start on port:PORT - Access <http://localhost:PORT>
+> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
 
 ---
 ## :hammer_and_wrench: **Technologies**
@@ -140,7 +107,13 @@ The following tools is used to build this project:
 
 |:globe_with_meridians: Web|
 |:---:|
-|[Example](https://example.com)|
+|[Typescript](https://example.com)|
+|[Sass](https://example.com)|
+|[React](https://example.com)|
+|[Nextjs](https://example.com)|
+|[axios](https://example.com)|
+|[rc-slider](https://example.com)|
+|[date-fns](https://example.com)|
 
 </div>
 
