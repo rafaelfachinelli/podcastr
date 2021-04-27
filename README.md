@@ -120,7 +120,11 @@ The following tools is used to build this project:
 ---
 ## :boy: **Author**
 
+<div align="center">
+  
+[![Author](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/author.svg)](https://www.linkedin.com/in/rafaelfachinelli/)
 
+</div>
 
 ---
 ## :balance_scale: **License**
