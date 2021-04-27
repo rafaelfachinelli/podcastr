@@ -63,7 +63,7 @@ Description about this project.
 ---
 ## :arrow_forward: **Run**
 
-To run the project you need to clone or [`download`](https://github.com/USERNAME/REPOSITORY/archive/main.zip) this repository, have the Node Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager installed ([`YARN`](https://yarnpkg.com/getting-started)).
+To run the project you need to clone or [`download`](https://github.com/rafaelfachinelli/podcastr/archive/main.zip) this repository, have the Node Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager installed ([`YARN`](https://yarnpkg.com/getting-started)).
 
 ### :globe_with_meridians: **Web**
 
@@ -120,21 +120,7 @@ The following tools is used to build this project:
 ---
 ## :boy: **Author**
 
-<div align="center">
 
-<a href="https://github.com/AUTHORUSERNAME">
- <img src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4" width="100px;" alt="Profile Photo AUTHOR NAME"/>
- <br/>
- <sub><b>AUTHOR NAME</b></sub>
-</a>
-
-Developed with ❤️ by AUTHOR NAME 👋🏽 Contact me!
-
-[![Linkedin Badge](https://img.shields.io/badge/-AUTHOR_NAME-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/AUTHORNAME)
-[![Github Badge](https://img.shields.io/badge/-AUTHORNAME-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/AUTHORUSERNAME)
-[![Outlook Badge](https://img.shields.io/badge/-AUTHOREMAIL-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:AUTHOREMAIL)
-
-</div>
 
 ---
 ## :balance_scale: **License**
