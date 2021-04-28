@@ -100,7 +100,7 @@ Open the command prompt in the project directory, open the [`example/`](example/
 
 ### :file_cabinet: **Server**
 
-Open the command prompt in the project directory, open the [`./`](main) folder and execute the following commands:
+Open the command prompt in the project directory, open the [`main`](./) folder and execute the following commands:
 
 <details>
   <summary><i>with <b>npm</b></i></summary>
