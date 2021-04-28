@@ -127,6 +127,8 @@ Open the command prompt in the project directory and execute the following comma
 
   ```
 
+</details>
+
 > ⚠️ The development server will start on port:3333 - Access <http://localhost:3333>
 
 ---
