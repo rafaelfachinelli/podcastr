@@ -43,7 +43,11 @@
 ---
 ## :information_source: About
 
-Description about this project.
+Podcastr is a project developed at the event called Next Level Week # 5 (NLW) promoted by Rocketseat for a week.
+
+Able to list podcasts through the API that returns JSON and play them with some basic controls: next, previous, next random, play, pause and repeat.
+
+It uses Nextjs dynamic static generation for each podcast in the list, being able to access a page with exclusive details.
 
 ---
 ## :memo: **Tasks**
