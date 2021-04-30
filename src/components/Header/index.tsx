@@ -1,5 +1,6 @@
 import format from "date-fns/format";
 import enUS from "date-fns/locale/en-US";
+import ThemeSwitch from "../ThemeSwitch";
 
 import styles from "./styles.module.scss";
 
@@ -10,9 +11,12 @@ export function Header() {
 
   return (
     <header className={styles.headerContainer}>
-      <img src="/logo.svg" alt="Podcastr" />
+      <div className={styles.logo}>
+        <img src="/logo.svg" alt="Podcastr" />
+        <p>The best to you hear, always.</p>
+      </div>
 
-      <p>The best to you hear, always.</p>
+      <ThemeSwitch />
 
       <span>{currentDate}</span>
     </header>
