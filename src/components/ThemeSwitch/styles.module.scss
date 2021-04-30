@@ -1,0 +1,49 @@
+.themeSwitchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+
+  label {
+    width: 40px;
+    height: 20px;
+    display: block;
+    position: relative;
+    text-indent: -9999px;
+
+    background: #494d4b;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  label:after {
+    content: "";
+    width: 20px;
+    height: 18px;
+    top: 1px;
+    left: 1px;
+    position: absolute;
+    transition: 0.3s;
+
+    background: #fff;
+    border-radius: 90px;
+  }
+
+  input:checked + label {
+    background: #8257e5;
+  }
+
+  input:checked + label:after {
+    left: calc(100% - 1px);
+    transform: translateX(-100%);
+  }
+
+  label:active:after {
+    width: 5px;
+  }
+}
