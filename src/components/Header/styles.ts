@@ -1,4 +1,6 @@
-.headerContainer {
+import styled from 'styled-components'
+
+export const Container = styled.div`
   height: 6.5rem;
   display: flex;
   justify-content: space-between;
@@ -7,11 +9,11 @@
 
   background: var(--white);
   border-bottom: 1px solid var(--gray-100);
+`
 
-  .logo {
-    display: flex;
-    align-items: center;
-  }
+export const Logo = styled.div`
+  display: flex;
+  align-items: center;
 
   p {
     padding: 0.25rem 0 0.25rem 2rem;
@@ -22,4 +24,4 @@
   span {
     text-transform: capitalize;
   }
-}
+`
