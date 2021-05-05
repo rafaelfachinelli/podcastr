@@ -58,8 +58,20 @@ It uses Nextjs dynamic static generation for each podcast in the list, being abl
 
 |State|Task|
 |:---:|:---|
-|:heavy_check_mark:|Describe your task finished.|
-|:x:|Describe your task unfinished.|
+|:heavy_check_mark:|Prepare Global CSS|
+|:heavy_check_mark:|Add images and icons|
+|:heavy_check_mark:|Set font family|
+|:heavy_check_mark:|Header component|
+|:heavy_check_mark:|Create player context api state|
+|:heavy_check_mark:|Player component|
+|:heavy_check_mark:|Configure JSON server|
+|:heavy_check_mark:|Create Home page|
+|:heavy_check_mark:|Style Home page|
+|:heavy_check_mark:|Create Episode page|
+|:heavy_check_mark:|Style Episode page|
+|:heavy_check_mark:|Style buttons|
+|:heavy_check_mark:|Update Readme|
+|:heavy_check_mark:|Create license|
 
 </details>
 </div>
