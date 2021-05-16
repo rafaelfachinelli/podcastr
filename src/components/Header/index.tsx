@@ -2,7 +2,7 @@ import format from "date-fns/format";
 import enUS from "date-fns/locale/en-US";
 import ThemeSwitch from "../ThemeSwitch";
 
-import { Container, Logo, Hour } from "./styles";
+import styles from "./styles.module.scss";
 
 export function Header() {
   const currentDate = format(new Date(), "EEEEEE, d MMMM", {
@@ -10,15 +10,15 @@ export function Header() {
   });
 
   return (
-    <Container>
-      <Logo>
+    <header className={styles.headerContainer}>
+      <div className={styles.logo}>
         <img src="/logo.svg" alt="Podcastr" />
         <p>The best to you hear, always.</p>
-      </Logo>
+      </div>
 
       <ThemeSwitch />
 
-      <Hour>{currentDate}</Hour>
-    </Container>
+      <span>{currentDate}</span>
+    </header>
   );
 }
