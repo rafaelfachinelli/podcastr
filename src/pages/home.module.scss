@@ -162,53 +162,27 @@
   }
 }
 
-.homePage[data-theme="light"] {
-  .latestEpisodes {
-    li {
-      background: var(--white);
-      border: 1px solid var(--gray-100);
-
-      .episodeDetails {
-        a {
-          color: var(--gray-800);
-        }
-
-        span {
-          &:last-child {
-            &::before {
-              content: "";
-
-              background: #ddd;
-            }
-          }
-        }
-      }
-
-      button {
+html[data-theme="light"] {
+  .homePage {
+    .latestEpisodes {
+      li {
         background: var(--white);
         border: 1px solid var(--gray-100);
 
-        &:hover {
-          filter: brightness(0.95);
-        }
-      }
-    }
-  }
+        .episodeDetails {
+          a {
+            color: var(--gray-800);
+          }
 
-  .allEpisodes {
-    table {
-      th,
-      td {
-        border-bottom: 1px solid var(--gray-100);
-      }
+          span {
+            &:last-child {
+              &::before {
+                content: "";
 
-      th {
-        color: var(--gray-200);
-      }
-
-      td {
-        a {
-          color: var(--gray-800);
+                background: #ddd;
+              }
+            }
+          }
         }
 
         button {
@@ -221,56 +195,58 @@
         }
       }
     }
-  }
-}
 
-.homePage[data-theme="dark"] {
-  .latestEpisodes {
-    li {
-      background: var(--gray-800);
-      border: 1px solid var(--gray-800);
-
-      .episodeDetails {
-        a {
-          color: var(--gray-50);
+    .allEpisodes {
+      table {
+        th,
+        td {
+          border-bottom: 1px solid var(--gray-100);
         }
 
-        span {
-          &:last-child {
-            &::before {
-              content: "";
+        th {
+          color: var(--gray-200);
+        }
 
-              background: #333;
+        td {
+          a {
+            color: var(--gray-800);
+          }
+
+          button {
+            background: var(--white);
+            border: 1px solid var(--gray-100);
+
+            &:hover {
+              filter: brightness(0.95);
             }
           }
         }
       }
-
-      button {
-        background: var(--gray-1000);
-        border: 1px solid var(--gray-800);
-
-        &:hover {
-          filter: brightness(0.9);
-        }
-      }
     }
   }
+}
 
-  .allEpisodes {
-    table {
-      th,
-      td {
-        border-bottom: 1px solid var(--gray-800);
-      }
+html[data-theme="dark"] {
+  .homePage {
+    .latestEpisodes {
+      li {
+        background: var(--gray-800);
+        border: 1px solid var(--gray-800);
 
-      th {
-        color: var(--gray-500);
-      }
+        .episodeDetails {
+          a {
+            color: var(--gray-50);
+          }
 
-      td {
-        a {
-          color: var(--gray-50);
+          span {
+            &:last-child {
+              &::before {
+                content: "";
+
+                background: #333;
+              }
+            }
+          }
         }
 
         button {
@@ -279,6 +255,34 @@
 
           &:hover {
             filter: brightness(0.9);
+          }
+        }
+      }
+    }
+
+    .allEpisodes {
+      table {
+        th,
+        td {
+          border-bottom: 1px solid var(--gray-800);
+        }
+
+        th {
+          color: var(--gray-500);
+        }
+
+        td {
+          a {
+            color: var(--gray-50);
+          }
+
+          button {
+            background: var(--gray-1000);
+            border: 1px solid var(--gray-800);
+
+            &:hover {
+              filter: brightness(0.9);
+            }
           }
         }
       }
