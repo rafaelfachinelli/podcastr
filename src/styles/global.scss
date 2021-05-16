@@ -12,6 +12,7 @@
   --gray-200: #afb2b1;
   --gray-500: #808080;
   --gray-800: #494d4b;
+  --gray-1000: #2d3436;
 
   --green-500: #04d361;
 
@@ -33,16 +34,11 @@
   }
 }
 
-body {
-  background: var(--gray-50);
-}
-
 body,
 input,
 textarea,
 button {
   font: 500 1rem Inter, sans-serif;
-  color: var(--gray-500);
 }
 
 h1,
@@ -53,7 +49,6 @@ h5,
 h6 {
   font-weight: 600;
   font-family: Lexend, sans-serif;
-  color: var(--gray-800);
 }
 
 h1 {
@@ -66,4 +61,48 @@ h2 {
 
 button {
   cursor: pointer;
+}
+
+html[data-theme="light"] {
+  body {
+    background: var(--gray-50);
+  }
+
+  body,
+  input,
+  textarea,
+  button {
+    color: var(--gray-500);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--gray-800);
+  }
+}
+
+html[data-theme="dark"] {
+  body {
+    background: var(--gray-1000);
+  }
+
+  body,
+  input,
+  textarea,
+  button {
+    color: var(--gray-100);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--gray-50);
+  }
 }

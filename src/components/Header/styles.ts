@@ -22,6 +22,8 @@ export const Logo = styled.div`
   }
 
   span {
-    text-transform: capitalize;
   }
+`
+export const Hour = styled.span`
+  text-transform: capitalize;
 `

@@ -1,4 +1,6 @@
-.playerContainer {
+import styled from 'styled-components'
+
+export const Container = styled.div`
   width: 26.5rem;
   height: 100vh;
   display: flex;
@@ -20,17 +22,18 @@
     font-family: Lexend, sans-serif;
     font-weight: 600;
   }
+  
+`
 
-  footer {
-    align-self: stretch;
+export const Footer = styled.footer`
+  align-self: stretch;
 
-    &.empty .progress {
-      opacity: 0.5;
-    }
+  &.empty .progress {
+    opacity: 0.5;
   }
-}
+`
 
-.currentEpisode {
+export const CurrentEpisode = styled.div`
   text-align: center;
 
   img {
@@ -47,12 +50,12 @@
   span {
     display: block;
     margin-top: 1rem;
-    opacity: 0.6;
     line-height: 1.5rem;
+    opacity: 0.6;
   }
-}
+`
 
-.emptyPlayer {
+export const EmptyPlayer = styled.div`
   width: 100%;
   height: 20rem;
   display: flex;
@@ -68,9 +71,9 @@
   );
   border: 1.5px dashed var(--purple-300);
   border-radius: 1.5rem;
-}
+`
 
-.progress {
+export const Progress = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -81,21 +84,21 @@
     display: inline-block;
     text-align: center;
   }
+`
 
-  .slider {
-    flex: 1;
+export const PlayerSlider = styled.div`
+  flex: 1;
+`
 
-    .emptySlider {
-      width: 100%;
-      height: 4px;
+export const EmptySlider = styled.div`
+  width: 100%;
+  height: 4px;
 
-      background: var(--purple-300);
-      border-radius: 2px;
-    }
-  }
-}
+  background: var(--purple-300);
+  border-radius: 2px;
+`
 
-.buttons {
+export const Buttons = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,16 +128,35 @@
       filter: brightness(0.6) invert(0.35) sepia(1) saturate(3)
         hue-rotate(100deg);
     }
-
-    &.playButton {
-      width: 4rem;
-      height: 4rem;
-      border-radius: 1rem;
-      background: var(--purple-400);
-
-      &:hover:not(:disabled) {
-        filter: brightness(0.95);
-      }
-    }
   }
-}
+`
+
+export const PlayButton = styled.div`
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--purple-400);
+  border-radius: 1rem;
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.5;
+  }
+
+  &:hover:not(:disabled) {
+    cursor: pointer;
+    filter: brightness(0.95);
+  }
+
+  &.isActive {
+    filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg);
+  }
+
+  &.isActive:hover {
+    filter: brightness(0.6) invert(0.35) sepia(1) saturate(3)
+      hue-rotate(100deg);
+  }
+`

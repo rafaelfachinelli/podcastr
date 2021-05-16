@@ -2,7 +2,7 @@ import format from "date-fns/format";
 import enUS from "date-fns/locale/en-US";
 import ThemeSwitch from "../ThemeSwitch";
 
-import { Container, Logo } from "./styles";
+import { Container, Logo, Hour } from "./styles";
 
 export function Header() {
   const currentDate = format(new Date(), "EEEEEE, d MMMM", {
@@ -18,7 +18,7 @@ export function Header() {
 
       <ThemeSwitch />
 
-      <span>{currentDate}</span>
+      <Hour>{currentDate}</Hour>
     </Container>
   );
 }
