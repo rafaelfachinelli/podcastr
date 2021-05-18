@@ -43,7 +43,7 @@
 ---
 ## :information_source: About
 
-Podcastr is a project developed at the event called Next Level Week # 5 (NLW) promoted by Rocketseat for a week.
+Podcastr is a project developed at the event called Next Level Week # 5 (NLW) promoted by [`Rocketseat`](https://rocketseat.com.br) for a week.
 
 Able to list podcasts through the API that returns JSON and play them with some basic controls: next, previous, next random, play, pause and repeat.
 
