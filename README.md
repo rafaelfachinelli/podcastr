@@ -30,7 +30,7 @@
   
 |Desktop (Light)|Desktop (Dark)|
 |:---:|:---:|
-|<kbd><img src=".github/previews/desktop_preview.jpg" alt="Desktop"/></kbd>||
+|<kbd><img src=".github/previews/desktop_preview_light.jpg" alt="Desktop"/></kbd>|<kbd><img src=".github/previews/desktop_preview_dark.jpg" alt="Desktop"/></kbd>|
 
 ### :iphone: Responsive
 
